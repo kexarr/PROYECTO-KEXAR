@@ -1,0 +1,58 @@
+/* Estilo general para centrar la tabla en la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;  /* Para apilar las tablas verticalmente */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 80%;  /* Ajustar el ancho de la tabla */
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Estilo de las celdas */
+th, td {
+    border: 1px solid #dddddd;
+    padding: 12px 16px;
+}
+
+/* Estilo para las cabeceras */
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Alternar colores en las filas */
+tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Hover en las filas */
+tbody tr:hover {
+    background-color: #f0f0f0;
+    cursor: default;
+}
+
+/* Estilo de los títulos */
+h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
